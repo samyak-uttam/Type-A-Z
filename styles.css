@@ -1,18 +1,23 @@
 /* HTML Tags */
 body {
-  background-color: #053742;
-  color: #E8F0F2;
+  background-color: #001F3F;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
   text-align: center;
-  font-family: "Sriracha", cursive;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Sriracha', cursive;
 }
 
 ul {
   list-style-type: none;
-  color: red;
+  color: black;
 }
 
+/* Title Section */
 .website-name {
-  color: #39A2DB;
+  color: #0DA574;
   font-size: 6rem;
 }
 
@@ -23,39 +28,41 @@ ul {
 
 .alphabet-input {
   height: 50px;
-  width: 1000px;
+  width: 56%;
   margin: 0 30px;
 }
 
 .reset-button {
   height: 50px;
-  width: 400px;
+  width: 20%;
   margin-bottom: 4px;
 }
 
+.input-reset {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* Middle Section */
+#middle {
+  margin: 50px 100px;
+}
+
 .next-alphabet {
-  background-color: #E8F0F2;
+  background-color: white;
   border-radius: 100%;
-  color: #39A2DB;
-  font-size: 7.5rem;
-  width: 200px;
-  padding: 30px 0;
+  color: #dc3545;
+  font-size: 12rem;
+  font-family: "Nunito Sans", sans-serif;
   margin: auto;
-  font-family: "Roboto", sans-serif;
+  padding: 30px 0;
+  width: 26%;
 }
 
 .time {
   margin: 20px 0;
+  font-size: 2.5rem;
 }
 
 .results {
-  color: #39A2DB;
-}
-
-.input-reset {
-  font-family: "Roboto", sans-serif;
-}
-
-#middle {
-  margin: 50px 100px;
+  color: #0DA574;
 }
